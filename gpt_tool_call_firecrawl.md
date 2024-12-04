@@ -421,13 +421,10 @@ if __name__ == "__main__":
     main()
 
 ```
-
-The output and behavior of the program should be something like this:
-
-```system
-Enter a site to crawl: https://www.ycombinator.com/companies/firecrawl/jobs
-```
+To run the script, enter the following command in your terminal (ensure you're in your project directory).
 
 ```system
-Enter a question: What are the best jobs for a former technical writer at Firecrawl? How much do they pay?
+python smart_crawl.py
 ```
+
+That’s it, enjoy your smart crawl agent!
