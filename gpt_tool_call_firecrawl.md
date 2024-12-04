@@ -421,10 +421,56 @@ if __name__ == "__main__":
     main()
 
 ```
-To run the script, enter the following command in your terminal (ensure you're in your project directory).
+
+The output and behavior of the program should be something like this:
 
 ```system
-python smart_crawl.py
+Enter a site to crawl: https://www.ycombinator.com/companies/firecrawl/jobs
 ```
 
-That’s it, enjoy your smart crawl agent!
+```system
+Enter a question: What are the best jobs for a former technical writer at Firecrawl? How much do they pay?
+```
+
+```system
+Context updated with: firecrawl_crawl: https://www.ycombinator.com/companies/firecrawl/jobs
+```
+
+```system
+Here are some potential job opportunities for a former technical writer at Firecrawl, along with their respective salaries:
+
+1. **Founding Developer Relations (Community/Support)**
+   - **Salary:** $70K - $150K
+   - **Experience Required:** 3+ years
+   - **Location:** San Francisco, CA, US / Remote (US)
+   - **Description:** This role involves engaging with users, managing community interactions, resolving customer issues, and maintaining product documentation. A technical background and coding ability are essential.
+
+2. **Developer Support Engineer**
+   - **Salary:** $75K - $130K
+   - **Experience Required:** 3+ years
+   - **Location:** Remote (US)
+   - **Description:** This position focuses on resolving customer issues, engaging with users through various platforms, troubleshooting, and maintaining documentation. Strong problem-solving skills and technical knowledge are a must.
+
+3. **Chief of Staff @ Firecrawl**
+   - **Salary:** $115K - $175K
+   - **Experience Required:** Any (new grads welcome)
+   - **Location:** San Francisco, CA, US
+   - **Description:** This role suits someone who can manage projects across various functions, assist with customer success and process improvements, and has a strong organizational skillset.
+
+4. **Founding Web Automation Engineer**
+   - **Salary:** $100K - $150K
+   - **Experience Required:** 3+ years
+   - **Location:** San Francisco, CA, US / Remote (US)
+   - **Description:** This position focuses on web scraping and automation processes, requiring a strong technical background and coding proficiency. While it is more technical, skills gained in technical writing could be beneficial for documentation aspects.
+
+5. **Senior Frontend Engineer**
+   - **Salary:** $80K - $150K
+   - **Experience Required:** 3+ years
+   - **Location:** US / BR / Remote (US; BR)
+   - **Description:** This role will involve creating user interfaces and engaging in web development, requiring expertise in several programming languages and frameworks.
+
+These roles leverage skills in technical communication, user engagement, and support, making them suitable transitions for a technical writer looking to stay within the tech industry.
+
+```
+
+Our model now provides accurate, real-time information directly sourced from the site, showcasing its impressive capabilities. However, this is just the beginning. When paired with other AI tools, the Firecrawl function can greatly enhance your agent's ability to accomplish more complex tasks.
